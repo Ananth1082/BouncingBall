@@ -1,3 +1,10 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .myContainer-1 {
   width: 400px;
   height: 400px;
@@ -24,6 +31,7 @@
   border-radius: 50px;
   background-color: red;
 }
+
 #ball-2 {
   width: 50px;
   height: 50px;
