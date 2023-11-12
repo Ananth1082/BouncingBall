@@ -2,7 +2,7 @@ body {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  
   align-items: center;
   background-color: aqua;
 }
@@ -12,6 +12,8 @@ body {
   height: 400px;
   position: relative;
   background: yellow;
+  justify-self: center;
+  border: 5px solid black;
 }
 
 #gravity-ball {
@@ -32,6 +34,7 @@ body {
   margin-left: 250px;
   border-radius: 50px;
   background-color: red;
+  border: 2px solid black;
 }
 
 #ball-2 {
@@ -42,4 +45,6 @@ body {
   margin-left: 150px;
   border-radius: 50px;
   background-color: red;
+  border: 2px solid black;
+
 }
